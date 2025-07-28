@@ -10,5 +10,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Contact form alert
 document.getElementById('contact-form').addEventListener('submit', function(e) {
   e.preventDefault();
-  alert('Message sent successfully!');
+  alert('Message sent successfully!!');
 });
